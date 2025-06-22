@@ -3,4 +3,4 @@ __pycache__/
 .vscode/
 venv/
 *.pyc
-git commit -m "Initial commit - GIRI Voice Assistant"
+git commit -m "Initial commit - Naga Voice Assistant"

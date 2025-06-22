@@ -14,7 +14,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)  # Use female voice
 
 def talk(text):
-    print("🎙️ GIRI:", text)
+    print("🎙️ Naga:", text)
     engine.say(text)
     engine.runAndWait() 
 
@@ -36,7 +36,7 @@ def take_command():
         return ""
     return command
 
-def run_giri():
+def run_Naga():
     command = take_command()
 
     if "play" in command:
@@ -85,6 +85,6 @@ def run_giri():
     elif command != "":
         talk("I heard you, but I don’t understand that yet 😅")
 
-talk("Yo! I'm GIRI – your personal voice assistant 💡")
+talk("Yo! I'm Naga – your personal voice assistant 💡")
 while True:
-    run_giri()
+    run_Naga()
